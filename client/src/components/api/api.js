@@ -1,6 +1,6 @@
 import youtubeSearch from "simple-youtube-api";
 
-const API_KEY = "AIzaSyAB2oAFx4da4hxO7XGSXF_M2j-9W0Wj4XA";
+const API_KEY = "YouTube API V3 key";
 
 export const getPopularList = async () => {
   const ob = new youtubeSearch(API_KEY);
